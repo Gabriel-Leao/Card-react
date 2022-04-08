@@ -8,7 +8,8 @@ const SkillsButton = styled('button', {
   textAlign: 'center',
   padding: '9px 18px',
   cursor: 'pointer',
-  margin: '3px 3px',
+  margin: '0px 3px',
+  marginBottom: '10px',
   opacity: '1',
   transition: '.15s opacity ease',
 
