@@ -11,12 +11,18 @@ const DivCard = styled('div', {
   color: '#fff',
   height: '500px',
   width: '450px',
-  borderRadius: '15px'
+  borderRadius: '15px',
+  marginTop: '50px'
 });
 
 const DivPro = styled('div', {
+  margin: '10px',
   backgroundColor: '#231F3A',
   textAlign: 'justify'
+})
+
+const DivButton = styled('div', {
+  textAlign: 'center'
 })
 
 const DivSkills = styled('div', {
@@ -38,8 +44,10 @@ export default function Card() {
 
       <CardInfo card={card}></CardInfo>
 
-      <PrimaryButton>Message</PrimaryButton>
-      <SecundaryButton>Following</SecundaryButton>
+      <DivButton>
+        <PrimaryButton>Message</PrimaryButton>
+        <SecundaryButton>Following</SecundaryButton>
+      </DivButton>
 
       <DivSkills>
         <h3>Skills</h3>
