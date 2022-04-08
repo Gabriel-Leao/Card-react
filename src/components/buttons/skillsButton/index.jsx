@@ -1,4 +1,4 @@
-import { styled } from '@stitches/react';
+import { styled } from '@stitches/react'
 
 const SkillsButton = styled('button', {
   backgroundColor: 'transparent',
@@ -16,6 +16,6 @@ const SkillsButton = styled('button', {
   '&:hover': {
     opacity: '.75'
   },
-});
+})
 
 export default ({children}) => <SkillsButton>{children}</SkillsButton>;

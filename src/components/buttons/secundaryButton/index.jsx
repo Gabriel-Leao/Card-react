@@ -1,4 +1,4 @@
-import { styled } from '@stitches/react';
+import { styled } from '@stitches/react'
 
 const SecundaryButton = styled('button', {
   backgroundColor: 'transparent',
@@ -14,6 +14,6 @@ const SecundaryButton = styled('button', {
   '&:hover': {
     opacity: '.75'
   },
-});
+})
 
 export default ({children}) => <SecundaryButton>{children}</SecundaryButton>;

@@ -1,5 +1,6 @@
 import Card from './components/card'
-import { styled } from '@stitches/react';
+import { styled } from '@stitches/react'
+import cardJson from '../public/card.json'
 
 const DivApp = styled('div', {
   backgroundColor: '#28223E',
@@ -13,7 +14,7 @@ const DivApp = styled('div', {
 function App() {
   return (
     <DivApp>
-      <Card />
+      <Card card={cardJson}/>
     </DivApp>
   )
 }

@@ -1,8 +1,8 @@
-import { styled } from '@stitches/react';
+import { styled } from '@stitches/react'
 
 const ProLabel = styled('span', {
   backgroundColor: '#FFC72C',
-  fontSize: '18px',
+  fontSize: '15px',
   padding: '5px 15px',
   border: '0',
   borderRadius: '5px',
@@ -10,6 +10,6 @@ const ProLabel = styled('span', {
   textAlign: 'center',
   cursor: 'pointer',
   fontWeight: '800'
-});
+})
 
 export default ({children}) => <ProLabel>{children.toUpperCase()}</ProLabel>;

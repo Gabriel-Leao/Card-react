@@ -1,10 +1,9 @@
-import card from '../../../public/card.json'
 import PrimaryButton from '../buttons/primaryButton'
 import SecundaryButton from '../buttons/secundaryButton'
 import SkillsButton from '../buttons/skillsButton'
 import CardInfo from '../info'
 import ProLabel from '../proLabel'
-import { styled } from '@stitches/react';
+import { styled } from '@stitches/react'
 
 const DivCard = styled('div', {
   backgroundColor: '#231F3A',
@@ -16,7 +15,7 @@ const DivCard = styled('div', {
 });
 
 const DivPro = styled('div', {
-  margin: '10px',
+  margin: '20px',
   backgroundColor: '#231F3A',
   textAlign: 'justify'
 })
@@ -35,7 +34,7 @@ const DivSkills = styled('div', {
   borderBottomRightRadius: '30px'
 });
 
-export default function Card() {
+export default function Card({card}) {
   return (
     <DivCard>
       <DivPro>

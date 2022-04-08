@@ -1,4 +1,4 @@
-import { styled } from '@stitches/react';
+import { styled } from '@stitches/react'
 
 const PrimaryButton = styled('button', {
   backgroundColor: '#00BECD',
@@ -15,6 +15,6 @@ const PrimaryButton = styled('button', {
   '&:hover': {
     opacity: '.75'
   },
-});
+})
 
 export default ({children}) => <PrimaryButton>{children}</PrimaryButton>;

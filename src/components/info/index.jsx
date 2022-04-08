@@ -1,4 +1,4 @@
-import { styled } from '@stitches/react';
+import { styled } from '@stitches/react'
 
 const Div = styled('div', {
   backgroundColor: '#231F3A',
@@ -6,12 +6,12 @@ const Div = styled('div', {
   textAlign: 'center',
   padding: '3px 20px',
   marginTop: '20px'
-});
+})
 
 const Img = styled('img', {
   height: '100px',
   width: '100px'
-});
+})
 
 export default function CardInfo({card}) {
   return (
