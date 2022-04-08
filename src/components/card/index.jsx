@@ -2,22 +2,41 @@ import card from '../../../public/card.json'
 import PrimaryButton from '../buttons/primaryButton'
 import SecundaryButton from '../buttons/secundaryButton'
 import SkillsButton from '../buttons/skillsButton'
-import DivSkills from '../divSkills'
+import CardInfo from '../info'
 import ProLabel from '../proLabel'
-import './styles.css'
+import { styled } from '@stitches/react';
 
-export default function Teste() {
+const DivCard = styled('div', {
+  backgroundColor: '#231F3A',
+  color: '#fff',
+  height: '500px',
+  width: '450px',
+  borderRadius: '15px'
+});
+
+const DivPro = styled('div', {
+  backgroundColor: '#231F3A',
+  textAlign: 'justify'
+})
+
+const DivSkills = styled('div', {
+  backgroundColor: '#1F1B36',
+  color: '#fff',
+  textAlign: 'justify',
+  padding: '3px 20px',
+  marginTop: '20px',
+  borderBottomLeftRadius: '30px',
+  borderBottomRightRadius: '30px'
+});
+
+export default function Card() {
   return (
-    <div className='card'>
-      <div>
+    <DivCard>
+      <DivPro>
         <ProLabel>pro</ProLabel>
-      </div>
+      </DivPro>
 
-      <img src={card.photo} alt="" />
-      <h2>{card.name}</h2>
-      <h3>{card.city}</h3>
-
-      <p>{card.description}</p>
+      <CardInfo card={card}></CardInfo>
 
       <PrimaryButton>Message</PrimaryButton>
       <SecundaryButton>Following</SecundaryButton>
@@ -26,6 +45,6 @@ export default function Teste() {
         <h3>Skills</h3>
         {card.skills.map(skill => <SkillsButton key={skill}>{skill}</SkillsButton>)}
       </DivSkills>
-    </div>
+    </DivCard>
   )
 }
