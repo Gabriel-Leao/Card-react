@@ -1,0 +1,20 @@
+import { styled } from '@stitches/react';
+
+const PrimaryButton = styled('button', {
+  backgroundColor: '#00BECD',
+  fontSize: '13px',
+  border: '0',
+  color: 'black',
+  textAlign: 'center',
+  padding: '10px 20px',
+  cursor: 'pointer',
+  margin: '0 5px',
+  opacity: '1',
+  transition: '.15s opacity ease',
+
+  '&:hover': {
+    opacity: '.75'
+  },
+});
+
+export default ({children}) => <PrimaryButton>{children}</PrimaryButton>;

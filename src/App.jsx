@@ -1,11 +1,7 @@
-import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
-import Teste from './components/usecard'
+import Teste from './components/card'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <Teste />
