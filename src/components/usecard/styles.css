@@ -15,8 +15,6 @@
 
 img {
   width: 40%;
-  border-radius: 300px;
-  border: 1px solid blue;
 }
 
 .primary {
@@ -31,5 +29,4 @@ img {
 
 .botao-secundario {
   background-color: transparent;
-  border: 1px solid #aaaaaa;
 }

@@ -1,5 +1,5 @@
 {
-  "photo": "public/foto-perfil.png",
+  "photo": "/foto-perfil.png",
   "name": "Gabriel Leão",
   "city": "São Paulo",
   "description": "User interface designer and front-end developer",
