@@ -6,7 +6,7 @@ const SkillsButton = styled('button', {
   border: '1px solid #5C5873',
   color: '#fff',
   textAlign: 'center',
-  padding: '9px 18px',
+  padding: '9px 16px',
   cursor: 'pointer',
   margin: '0px 3px',
   marginBottom: '10px',
@@ -18,4 +18,4 @@ const SkillsButton = styled('button', {
   },
 })
 
-export default ({children}) => <SkillsButton>{children}</SkillsButton>;
+export default ({children}) => <SkillsButton>{children}</SkillsButton>

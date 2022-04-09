@@ -5,12 +5,18 @@ const Div = styled('div', {
   color: '#fff',
   textAlign: 'center',
   padding: '3px 20px',
-  marginTop: '20px'
+  marginTop: '15px'
 })
 
 const Img = styled('img', {
   height: '100px',
   width: '100px'
+})
+
+const P = styled('p', {
+  fontSize: '16px',
+  fontWeight: '300',
+  margin: '5px'
 })
 
 export default function CardInfo({card}) {
@@ -19,7 +25,8 @@ export default function CardInfo({card}) {
       <Img src={card.photo} alt="Imagem do card" />
       <h2>{card.name}</h2>
       <h3>{card.city}</h3>
-      <p>{card.description}</p>
+      <P>{card.description[0]}</P>
+      <P>{card.description[1]}</P>
     </Div>
   )
 }

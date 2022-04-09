@@ -6,7 +6,7 @@ const SecundaryButton = styled('button', {
   border: '1px solid #00BECD',
   color: '#00BECD',
   textAlign: 'center',
-  padding: '9px 20px',
+  padding: '9px 30px',
   cursor: 'pointer',
   opacity: '1',
   transition: '.15s opacity ease',
@@ -16,4 +16,4 @@ const SecundaryButton = styled('button', {
   },
 })
 
-export default ({children}) => <SecundaryButton>{children}</SecundaryButton>;
+export default ({children}) => <SecundaryButton>{children}</SecundaryButton>

@@ -6,7 +6,7 @@ const PrimaryButton = styled('button', {
   border: '0',
   color: 'black',
   textAlign: 'center',
-  padding: '10px 20px',
+  padding: '10px 30px',
   cursor: 'pointer',
   margin: '0 5px',
   opacity: '1',
@@ -17,4 +17,4 @@ const PrimaryButton = styled('button', {
   },
 })
 
-export default ({children}) => <PrimaryButton>{children}</PrimaryButton>;
+export default ({children}) => <PrimaryButton>{children}</PrimaryButton>
