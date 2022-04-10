@@ -20,7 +20,7 @@ const DivCard = styled('div', {
   height: '550px',
   width: '390px',
   borderRadius: '20px'
-});
+})
 
 const DivPro = styled('div', {
   borderRadius: '30px',
@@ -42,7 +42,7 @@ const DivSkills = styled('div', {
   marginTop: '20px',
   borderBottomLeftRadius: '20px',
   borderBottomRightRadius: '20px',
-});
+})
 
 export default function Card({card}) {
   return (

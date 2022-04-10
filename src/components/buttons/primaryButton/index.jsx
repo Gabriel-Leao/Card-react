@@ -8,7 +8,7 @@ const PrimaryButton = styled('button', {
   textAlign: 'center',
   padding: '10px 30px',
   cursor: 'pointer',
-  margin: '0 5px',
+  marginRight: '8px',
   opacity: '1',
   transition: '.15s opacity ease',
 

@@ -10,4 +10,4 @@ const ProLabel = styled('span', {
   fontWeight: '800',
 })
 
-export default ({children}) => <ProLabel>{children.toUpperCase()}</ProLabel>;
+export default ({children}) => <ProLabel>{children.toUpperCase()}</ProLabel>
